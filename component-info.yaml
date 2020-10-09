@@ -2,11 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Something
-  description: ~                        
+  description:        ~                        
   annotations:
     github.com/project-slug: erictnilsson/something
     backstage.io/techdocs-ref: github:https://github.com/erictnilsson/something
 spec:
   type: website
   lifecycle: experimental
-  owner: null
+  owner: null       
