@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: sample-service!
+  name: sample-service
   description: |
     A service for testing Backstage functionality. For example, we can trigger errors
     on the sample-service, these are sent to Sentry, then we can view them in the 
@@ -9,7 +9,7 @@ metadata:
   annotations:
     github.com/project-slug: erictnilsson/something
     backstage.io/techdocs-ref: github:https://github.com/erictnilsson/something
-    ABBA/something.com: something!!
+    something.com: something!!
 spec:
   type: website
   lifecycle: experimental
