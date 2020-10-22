@@ -9,7 +9,7 @@ metadata:
   annotations:
     github.com/project-slug: erictnilsson/something
     backstage.io/techdocs-ref: github:https://github.com/erictnilsson/something
-    123/something.com: something
+    !"#=A"/something.com: something
 spec:
   type: website
   lifecycle: experimental
