@@ -12,5 +12,4 @@ metadata:
     something.com: something!!
 spec:
   type: website
-  lifecycle: experimental
   owner: erictnilsson    
